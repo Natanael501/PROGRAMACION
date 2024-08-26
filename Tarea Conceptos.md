@@ -1,5 +1,7 @@
 - *Librería/Biblioteca:* Una *librería* es una colección de funciones, clases, y otros recursos reutilizables que se agrupan en un solo archivo o conjunto de archivos. Las librerías facilitan la reutilización de código, ya que permiten a los programadores utilizar funcionalidades predefinidas sin tener que escribirlas desde cero.
 - *Paquete:* Conjunto de módulos/librerías organizados para su distribución.
-- *Script:* Archivo de código que ejecuta una secuencia de instrucciones específicas.
+- *Script:* Archivo de código que ejecuta una secuencia de instrucciones específicas. Es el código que implementamos en un archivo.
 - Estas secuencias de instrucciones se ejecutan de manera lineal o secuencial. Los scripts suelen ser escritos en lenguajes interpretados (como Python, JavaScript, Bash) y se utilizan para automatizar tareas, realizar configuraciones, o manipular datos.
 - *Módulo:* Un *módulo* es un archivo de código que contiene definiciones (funciones, clases, variables, etc.) que se pueden importar y reutilizar en otros programas o módulos. En Python, por ejemplo, un módulo es simplemente un archivo .py que puede ser importado en otros archivos .py utilizando la palabra clave import. Los módulos ayudan a organizar el código en partes lógicas, mejorando su mantenimiento y reutilización.
+- es un código que puede importar en otros archivos, modulos, códigos.
+- 
