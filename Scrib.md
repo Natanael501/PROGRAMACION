@@ -61,7 +61,7 @@ numerosAz = [8, 51, 1, 26, 31, 81, 93]
 print('\nTenemos una lista con numeros al azar: ', numerosAz, '\nDado que me gustaria conocer la posicion del numero 26, utilizo la funcion list.index(x[, start[, end]])')
 print('\nDe esta manera obtengo la posicion del numero 26: ', numerosAz.index(26))
 
-# list.count(x)
+# list.count(x)02
 print('\n* FUNCION list.count(x)')
 panteon = ['mango', 'sandia', 'pepino', 'sandia', 'pera']
 print('\nTenemos una lista donde se muestran diferentes frutas,',frutas , '\npero me gustaria saber cuantas veces se aparece\nla sandia en la lista, para ello uso la funcion list.count(x)')
