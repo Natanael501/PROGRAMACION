@@ -61,4 +61,3 @@ print('Se agregaron elementos al diccionario: ', Diccionario01)
 # values (self)
 Lista_valores = Diccionario01.values()
 print("Los valores del diccionario son: ", Lista_valores)
-
