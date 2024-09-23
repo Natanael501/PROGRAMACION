@@ -59,3 +59,24 @@ if condicional != 0:
 numeros = [1,2,3,4,5]
 for idx in numeros: #Para (variable local) en (lista)
     print(idx) #el idx literal puede ser cualquier palabra
+
+###1ra pregunta
+x = int(input('INTRODUCE UN NUMERO: '))
+serie = [0, 1]
+print(x)
+
+
+def fibo(long, ser, aum, ant):
+    if aum != long:
+        aum += 1
+        ser += ant
+        serie.append(ser)
+        ant = serie[-2]
+        fibo(long, ser, aum, ant)
+
+    else:
+        print(serie)
+        print('El ultimo numero es: ', serie[-1])
+
+
+fibo(x, 1, 0, 0)
