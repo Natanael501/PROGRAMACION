@@ -80,3 +80,21 @@ def fibo(long, ser, aum, ant):
 
 
 fibo(x, 1, 0, 0)
+
+def greet (name):
+    print(f'¡VECINOS SALGAN! ¡{name}!')
+
+greet('VECINOOOOOS')
+
+def add(a, b):
+    return a + b
+
+Resultado = add(358, 342)
+print(Resultado)
+
+def teorema_de_pitagoras(*args):
+    if args[tuple] % 2 == 0:
+        print(args)
+
+    else:
+        print(f'{args} es impar')
